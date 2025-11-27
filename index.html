@@ -1,7 +1,6 @@
 <html>
 	<head>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="jquery.min.js"></script>
 		<script type="text/javascript">
 			var width, height;
 
@@ -195,7 +194,7 @@
 			function drawHighlightGradient(x, y, r, o)
 			{
 				col = c.createRadialGradient(x, y, 0, x, y, r);
-				col.addColorStop(0.4, 'rgba(0, 0, 0, 0)');
+				col.addColorStop(0.4, 'rgba(0, 0, 0, 0)');
 				col.addColorStop(.95, 'rgba(0, 0, 0, ' + (o) + ')');
 				col.addColorStop(1.0, 'rgba(0, 0, 0, ' + (o + .3) + ')');
 
